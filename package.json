@@ -1,0 +1,15 @@
+{
+  "name": "node-learning",
+  "version": "1.0.0",
+  "description": "第一位: 主版本号, 当你做了不兼容的API修改（重大改动）\r 第二位: 次版本号, 当你做了向下兼容的功能性新增（功能的新增）\r 第三位: 修订号, 当你做了向下兼容的问题修正（fix Bug 修复）",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "index.js"
+  ],
+  "author": "",
+  "license": "ISC"
+}
