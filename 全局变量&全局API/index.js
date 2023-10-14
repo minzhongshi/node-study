@@ -42,9 +42,10 @@
  *           process.uptime() ===> 获取进程运行时间
  *           process.hrtime() ===> 获取高精度时间
  *
- *
+
  */
 
 global.name = '全局变量';
 globalThis.name2 = '浏览器和node环境都支持-全局变量';
 require('./child.js');
+
