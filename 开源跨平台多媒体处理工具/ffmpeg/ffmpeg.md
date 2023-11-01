@@ -106,7 +106,7 @@ ffmpeg -bsfs
 ```shell
 ffmpeg -components
 ```
-### 小功能(index.js)
+### 小功能(demo.js)
 - 1.基本格式转换
 - 2.提取视频中的音频
 - 3.裁剪视频

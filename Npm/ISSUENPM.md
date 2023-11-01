@@ -51,7 +51,7 @@ npm login
 ```json
 {
   "files": [
-    "index.js"
+    "demo.js"
   ]
 }
 ```
