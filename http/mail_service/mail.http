@@ -1,0 +1,8 @@
+POST http://localhost:3000/send/mail HTTP/1.1
+Content-Type: application/json
+
+{
+  "to":"2240941938@qq.com",
+  "subject":"那个谁",
+  "text":"我想你了，你还好吗"
+}
