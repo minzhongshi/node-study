@@ -44,9 +44,30 @@ app.get('/user/:id',async (req,res)=>{
     res.send(row)
 })
 
+//新增
+app.post('/create',async (req,res)=>{
+    const {id,name,age} = req.body
+    await sql.query(`insert into user(id,name,age) values(?,?,?)`,[id,name,age])
+    res.send({ok:200})
+})
+
+//编辑
+app.post('/update',async (req,res)=>{
+    const {id,name,age} = req.body
+    await sql.query('update user set name = ?,age = ? where id = ?',[name, age, id])
+    res.send({ok:200})
+})
+
+//删除
+app.delete('/delete',async (req,res)=>{
+    await sql.query('delete from user where id = ?',[req.body.id])
+    res.send({ok:200})
+})
+
 const port = 3000
 
 app.listen(port, ()=>{
     console.log(3000)
 })
 ```
+
