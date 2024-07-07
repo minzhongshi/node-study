@@ -1,6 +1,10 @@
-#GET http://localhost:3000/user/index HTTP/1.1
+GET http://localhost:3000/user/index HTTP/1.1
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NSwibmFtZSI6InNta3oiLCJlbWFpbCI6IjExMTExMTExMTFAcXEuY29tIiwiaWF0IjoxNzIwMzcxMTUxLCJleHAiOjE3MjA5NzU5NTF9.pIvbOlNXTDK1f0UeQPg6ji3Ftab31KvOEP7gGtO3H8s
 
-POST http://localhost:3000/user/create HTTP/1.1
-Content-Type: application/json
-
-{"name": "John", "email": "222222@qq.com"}
+#POST http://localhost:3000/user/create HTTP/1.1
+#Content-Type: application/json
+#
+#{
+#  "name": "smkz",
+#  "email": "1111111111@qq.com"
+#}
